@@ -335,7 +335,7 @@
 // src/App.jsx
 import React, { useState, useEffect } from "react";
 
-const API = "http://localhost:8081/bookapi";
+const API = `${config.url}/bookapi`
 
 function App() {
   const [books, setBooks] = useState([]);
